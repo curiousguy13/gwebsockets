@@ -183,7 +183,7 @@ if __name__ == "__main__":
     server.connect("session-started", session_started_cb)
     port = server.start()
 
-    print("Listening on port %d" % port)
+    print(("Listening on port %d" % port))
 
     main_loop = GLib.MainLoop()
     main_loop.run()
